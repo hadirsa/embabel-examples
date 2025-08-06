@@ -5,7 +5,7 @@ import com.embabel.agent.api.annotation.Action
 import com.embabel.agent.api.annotation.Agent
 
 @Agent(description = "Test agent with multiple paths")
-class MultiPathCoder {
+class MultiPathAgent {
     @Action
     fun pathA(): TypeA = TypeA()
     
