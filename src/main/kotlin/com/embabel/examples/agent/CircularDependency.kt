@@ -5,7 +5,7 @@ import com.embabel.agent.api.annotation.Action
 import com.embabel.agent.api.annotation.Agent
 
 @Agent(description = "Test agent with circular dependencies")
-class CircularDependencyCoder {
+class CircularDependency {
     @Action
     fun actionA(resultB: ResultB): ResultA = ResultA()
     

@@ -6,7 +6,7 @@ import com.embabel.agent.api.annotation.Agent
 import com.embabel.agent.api.annotation.Condition
 
 @Agent(description = "Test agent with conditions")
-class ConditionalCoder {
+class Conditional {
     companion object {
         const val NEEDS_BUILD = "needsBuild"
         const val BUILD_SUCCESS = "buildSuccess"
