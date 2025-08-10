@@ -1,4 +1,4 @@
-package com.embabel.examples
+package com.embabel.example
 
 import com.embabel.agent.config.annotation.EnableAgentShell
 import com.embabel.agent.config.annotation.EnableAgents

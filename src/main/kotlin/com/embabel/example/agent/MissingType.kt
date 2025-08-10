@@ -1,10 +1,9 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 
-@Agent(description = "Test with missing intermediate type")
+//@Agent(description = "Test with missing intermediate type")
 class MissingType {
     @Action
     fun start(): TypeA = TypeA()

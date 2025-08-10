@@ -1,11 +1,10 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 
 // This agent should fail at GOAP planning stage
-@Agent(description = "Agent where goal conflicts with available state")
+//@Agent(description = "Agent where goal conflicts with available state")
 class ConflictingStateAgent {
 
     @Action
@@ -27,7 +26,7 @@ class ConflictingStateAgent {
 }
 
 // Better example - agent where the goal literally cannot be satisfied
-@Agent(description = "Agent with impossible goal state")
+//@Agent(description = "Agent with impossible goal state")
 class ImpossibleGoalAgent {
 
     @Action
@@ -47,7 +46,7 @@ class ImpossibleGoalAgent {
 }
 
 // Most reliable failing case - action chain that doesn't connect to goal
-@Agent(description = "Completely disconnected goal")
+//@Agent(description = "Completely disconnected goal")
 class DisconnectedGoalAgent {
 
     // Chain 1: start -> middle (produces TypeB)

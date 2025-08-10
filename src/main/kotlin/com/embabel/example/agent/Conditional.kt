@@ -1,11 +1,10 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 import com.embabel.agent.api.annotation.Condition
 
-@Agent(description = "Test agent with conditions")
+//@Agent(description = "Test agent with conditions")
 class Conditional {
     companion object {
         const val NEEDS_BUILD = "needsBuild"

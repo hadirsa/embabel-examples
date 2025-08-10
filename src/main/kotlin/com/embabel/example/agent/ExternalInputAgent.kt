@@ -1,11 +1,10 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 import com.embabel.agent.domain.io.UserInput
 
-@Agent(description = "Test agent with external input")
+//@Agent(description = "Test agent with external input")
 class ExternalInputAgent {
     @Action
     fun processUserInput(userInput: UserInput): ProcessedInput = ProcessedInput()

@@ -1,10 +1,9 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 
-@Agent(description = "Test agent with circular dependencies")
+//@Agent(description = "Test agent with circular dependencies")
 class CircularDependency {
     @Action
     fun actionA(resultB: ResultB): ResultA = ResultA()

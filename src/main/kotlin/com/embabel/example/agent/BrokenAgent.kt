@@ -1,10 +1,9 @@
-package com.embabel.examples.agent
+package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.AchievesGoal
 import com.embabel.agent.api.annotation.Action
-import com.embabel.agent.api.annotation.Agent
 
-@Agent(description = "Agent with an unreachable goal")
+//@Agent(description = "Agent with an unreachable goal")
 class BrokenAgent {
 
     @Action
