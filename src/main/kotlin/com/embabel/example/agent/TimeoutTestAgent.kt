@@ -2,7 +2,6 @@ package com.embabel.example.agent
 
 import com.embabel.agent.api.annotation.*
 import com.embabel.agent.api.common.OperationContext
-import com.embabel.agent.config.models.OpenAiModels
 import com.embabel.agent.domain.io.UserInput
 import com.embabel.agent.domain.library.HasContent
 import com.embabel.common.ai.model.LlmOptions
