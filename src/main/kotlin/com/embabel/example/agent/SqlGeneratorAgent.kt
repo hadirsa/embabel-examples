@@ -74,7 +74,7 @@ class SqlConvertorAgent (private val dataAgentService: DataAgentService){
      * Main goal action that demonstrates userInput to sql convertor functionality
      */
     @AchievesGoal(
-        description = "Test agent for convert user request to sql functionality using data-agent framework",
+        description = "An agent to convert userInput to sql script",
         export = Export(
             remote = true,
             name = "SqlGenerator",
